@@ -1,0 +1,6 @@
+train: /home/gxyu/yolov5-7.0/datasets/VOCdevkit/images/train
+val: /home/gxyu/yolov5-7.0/datasets/VOCdevkit/images/val
+
+nc: 6
+
+names: ["FHY","MH","BJTU","TSG","TYHT","ZX"]

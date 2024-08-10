@@ -1,10 +1,1 @@
-本数据集用于目标检测任务，数据整体已经过滤过，只剩下
-
-["FHY","MH","BJTU","ZX","TSG","TYHT"]
-
-这六种标签（所以如果找不到你自己采集的数据，说明你的标签不对）
-
-训练集与测试集接近8：2划分，使用labelme格式
-
-(通用的OD任务采用的数据格式往往是VOC，或者COCO，
-如果你要使用别人写的目标检测代码（mmdetection,detectron2等），建议先转换为这两者之一再操作）
+./datasets/anchors/anchors.ipynb为使用K-Means计算当前目录下的数据图像标签的anchors代码。并可以打印出来。
